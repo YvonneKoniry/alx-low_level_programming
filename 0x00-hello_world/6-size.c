@@ -1,4 +1,8 @@
 #include<stdio.h>
+/**
+* main -prints out size of data types
+*Return: always 0
+*/
 int main(void)
 {
 	int intType;
@@ -6,9 +10,9 @@ int main(void)
 	double doubleType;
 	char charType;
 
-	printf("Size of int: %ld bytes\n", sizeof(intType));
-	printf("Size of float: %ld bytes\n", sizeof(floatType));
-	printf("Size of double: %ld bytes\n", sizeof(doubleType));
-	printf("Size of char: %ld byte\n", sizeof(charType));
+	printf("Size of int: %zu bytes\n", sizeof(intType));
+	printf("Size of float: %zu bytes\n", sizeof(floatType));
+	printf("Size of double: %zu bytes\n", sizeof(doubleType));
+	printf("Size of char: %zu byte\n", sizeof(charType));
 	return (0);
 }
