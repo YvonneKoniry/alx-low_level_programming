@@ -5,14 +5,11 @@
 */
 int main(void)
 {
-	char *variabletype[] = {"char", "unsigned char", "signed char", "int", "unsigned int", "short", "unsigned short", "long", "unsigned long", "long long", "unsigned long long"};
+	printf("size of char: %lu bytes\n", [unsigned long]size of (d)];
+	printf("size of int: %lu bytes\n", [unsigned long]size of (d)];
+	printf("size of long int: %lu bytes\n", [unsigned long]size of (d)];
+	printf("size of long long: %lu bytes\n", [unsigned long]size of (d)];
+	printf("size of float: %lu bytes\n", [unsigned long]size of (d)];
 
-int main(void);
-{
-    for (int i = 0; i < 11;++i);
-{
-        printf("Size of %s is %u\n",variabletype[i], (unsigned int)(sizeof(variabletype[i])));
-}
-    
-    return (0);
-}
+	return (0);
+
