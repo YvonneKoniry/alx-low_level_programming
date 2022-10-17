@@ -6,12 +6,12 @@
 
 int main(void)
 {
-	char al;
+	char letter;
 
-	for (al = 'a'; al <= 'z'; al++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		for (al != 'e' && al != 'q'; )
-			putchar(al);
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
 
 	putchar('\n');
