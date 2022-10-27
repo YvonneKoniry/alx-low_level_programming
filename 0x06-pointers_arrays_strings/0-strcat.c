@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-*_strcat -  concatenates two strings
-*@*dest:string
-*@*str:string
+*_strcat - concatenates two strings
+*@dest:string
+*@src:string
 *Return:void
 */
 
@@ -20,7 +20,7 @@ char *_strcat(char *dest, char *src)
 	}
 
 	b = 0;
-	while (src[b] != '\0') 
+	while (src[b] != '\0')
 	{
 		dest[a] += dest[a] + src[b];
 		a++;
@@ -29,6 +29,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[a] += '\0';
 
-	return(dest);
-		
+	return (dest);
 }
