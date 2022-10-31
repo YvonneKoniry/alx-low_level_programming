@@ -2,7 +2,7 @@
 
 
 /**
- * main - check the code
+ * reverse_array - check the code
  * @a: an array of integers
  * @n: the number of elements to swap
  *
@@ -19,9 +19,9 @@ void reverse_array(int *a, int n)
 	{
 
 		swap = *(a + start);
-		*(a + start) =*(a + end);
+		*(a + start) = *(a + end);
 		*(a + end) = swap;
 		start++;
 		end--;
 	}
-}	
+}
