@@ -17,17 +17,17 @@ char *_strdup(char *str)
 	n = 0;
 
 
-	while(str[n] != '\0')
+	while (str[n] != '\0')
 	{
- 		n++;
+		n++;
 	}
-	
-	i = malloc(sizeof(char) *n + 1);
+
+	i = malloc(sizeof(char) * n + 1);
 
 	if (i == NULL)
 	{
 		free(i);
-	
+
 		return (NULL);
 	}
 
@@ -38,6 +38,3 @@ char *_strdup(char *str)
 
 	return (i);
 }
-
-	 
-
